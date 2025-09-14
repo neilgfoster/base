@@ -32,6 +32,9 @@ if [[ -n "$ORG" && -n "$REPO" ]]; then
   if [ "$(basename "$PWD")" = ".setup" ]; then
     cd ..
   fi
+  if [ "$(basename "$PWD")" = "base" ]; then
+    cd ..
+  fi
   if [ "$(basename "$PWD")" = "$REPO" ]; then
     cd ..
   fi
