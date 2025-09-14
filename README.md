@@ -11,15 +11,6 @@ A CODEOWNERS file is included to define the code owners for the repository, whic
 
 ### Setup Scripts
 Setup scripts are included to automate the initial setup of a new repository. These scripts can be customized as needed. Supports calling scripts from other repositories that follow the same pattern. Can be executed using bash and curl:
-# Update repository and install essential packages
-sudo apt update -y
-sudo apt install -y \
-  git \
-  git-lfs
-sudo apt autoremove -y
-
-# Initialize git-lfs
-git lfs install
 ```bash
 bash <(curl -sS https://raw.githubusercontent.com/neilgfoster/base/main/.setup/setup.sh) -o=neilgfoster -r=base
 ```
