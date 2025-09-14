@@ -1,9 +1,6 @@
 # base
 This is my base template repository I use for all my repositories. It contains some basic structure and setup scripts that I reuse across all my projects.
 
-> [!NOTE]
-> Don't forget to update the `-o` and `-r` variables in the setup.sh script after creating a new repository from this template. In addition, update the URL in the "Getting Started" section below.
-
 ## Whats Included?
 
 ### Code Owners
